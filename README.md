@@ -27,6 +27,7 @@ http://releases.libreelec.tv/LibreELEC-RPi4.arm-9.2.1.img.gz.
 
 ## Notes
 
+1. The playlist and video files on the SD card can also be modified via the SAMBA network share. To do so, enable SAMBA (SMB) in the LibreELEC settings, connect the `pi-player` to the network and connect to the `LIBREELEC` share. The `MEDIA` partition is located in the `MEDIA` folder.
 1. The Raspberry Pi 4 has two HDMI ports. LibreELEC will output to port `HDMI0`.
 1. Use the `h.264` video codec for best performance on the Raspberry Pi 4.
 1. For enabling 4K@60Hz output, add `hdmi_enable_4kp60=1` to your `config.txt`.
