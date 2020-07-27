@@ -36,7 +36,7 @@ The script `files/autoexec.py` needs to be copied to the SD cards `STORAGE` part
 
 ### Adding media files
 1. Access the `MEDIA` partition directly through a file manager on a system with a micro SD card reader or connect to the `LIBREELEC` Samba network share and switch to the `MEDIA` folder.
-1. Follow the [instructions for creating the autoplay list](files/REAMDE.md).
+1. Follow the [instructions for creating the autoplay list](files/README.md).
 
 ### Finishing
 1. (Re-)Boot the Raspberry Pi with the `pi-player` SD card inserted.
